@@ -1,4 +1,4 @@
-#include <stdio.h>
+#inlcude <stdio>
 
 int main(void)
 {
