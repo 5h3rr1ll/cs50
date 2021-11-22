@@ -34,10 +34,10 @@
   <p align="center">
     Artificial Intelligence (AI) aims to enable artificial systems to act autonomously and rationally. This includes equipping them with basic capabilities from human intelligence, such as planning future actions, reasoning about known information, or learning from experience. This module covers a basic understanding of the core concepts in artificial intelligence and the techniques, usually related to AI.
     <br />
-    <a href="https://github.com/5h3rr1ll/cs50/cs50"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/5h3rr1ll/cs50/tree/master/AI"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/5h3rr1ll/cs50">View Demo</a>
+    <a href="https://github.com/5h3rr1ll/cs50/tree/master/AI">View Demo</a>
     ·
     <a href="https://github.com/5h3rr1ll/cs50/issues">Report Bug</a>
     ·
@@ -85,29 +85,15 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-* npm
-
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
 
    ```sh
    git clone https://github.com/5h3rr1ll/cs50.git
    ```
 
-3. Install Pip packages
+2. Install Pip packages
 
    ```sh
    pip install -r requirements.txt
@@ -118,19 +104,21 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+In order to run the single projects just `cd` into the respective one and run commands mentioned below.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Courses
 
-* [] Feature 1
-* [] Feature 2
-* [] Feature 3
-  * [] Nested Feature
+* 0. Search
+  * Degree
+    * `python degrees.py small` <-- In order to just try the small dataset
+    * `python degrees.py large` <-- In order to just try the large dataset
+  * Tic Tac Toe
+    * `python runner.py`
+  * Run Tests:
+    * Run `pytest` insider `tictactoe` folder
 
 See the [open issues](https://github.com/5h3rr1ll/cs50/issues) for a full list of proposed features (and known issues).
 
@@ -171,9 +159,10 @@ Project Link: [https://github.com/5h3rr1ll/cs50](https://github.com/5h3rr1ll/cs5
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [CS50’s Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai/2020/)
+* [Darjusch Schrand](https://github.com/Darjusch/CS50_AI)
+* [Juan Esteban Mendez](https://github.com/juanesmendez/CS50-AI-Project0-tictactoe/blob/master/tictactoe.py)
+* [towards data science](https://towardsdatascience.com/understanding-the-minimax-algorithm-726582e4f2c6)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
