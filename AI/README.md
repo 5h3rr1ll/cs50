@@ -74,6 +74,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Module
 
+[![Product Name Screen Shot][product-screenshot]](https://cs50.harvard.edu/ai/2020/projects/0/tictactoe/)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
@@ -180,4 +182,4 @@ Project Link: [https://github.com/5h3rr1ll/cs50](https://github.com/5h3rr1ll/cs5
 [license-url]: https://github.com/5h3rr1ll/cs50/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/anthony-sherrill-ab588a38
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://cs50.harvard.edu/ai/2020/projects/0/tictactoe/images/game.png
