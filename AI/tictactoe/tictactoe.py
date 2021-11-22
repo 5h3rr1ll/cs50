@@ -57,7 +57,6 @@ def result(board, action):
     new_board = deepcopy(board)
     
     if action in moves:
-        # action[0] = row, action[1] = column, player = X or O
         new_board[action[0]][action[1]] = player(board)
         return new_board
 
@@ -76,20 +75,15 @@ def winner(board):
 
     """Check if in each row at the same poition is the same symbol like X or O = win state"""
     for i,row in enumerate(board):
-        # print(board[i][0],board[i+1][0],board[i+2][0])
         print("BORAD: ", board)
         if board[i][0] != EMPTY and board[i][0] == board[i+1][0] == board[i+2][0]:
             return(board[i][0])
 
     for i,row in enumerate(board):
-        # print(board[i][0],board[i+1][0],board[i+2][0])
-        print("BORAD: ", board)
         if board[i][1] != EMPTY and board[i][1] == board[i+1][1] == board[i+2][1]:
             return(board[i][1])
 
     for i,row in enumerate(board):
-        # print(board[i][0],board[i+1][0],board[i+2][0])
-        print("BORAD: ", board)
         if board[i][2] != EMPTY and board[i][2] == board[i+1][2] == board[i+2][2]:
             return(board[i][2])
 
@@ -115,17 +109,3 @@ def minimax(board):
     Returns the optimal action for the current player on the board.
     """
     raise NotImplementedError
-
-
-# board = initial_state()
-# actions(board)
-# result(board, (1,1))
-# player(board)
-# actions(board)
-# result(board, (0,0))
-# print(winner([["X", EMPTY, EMPTY],
-#              ["X", EMPTY, EMPTY],
-#              ["X", EMPTY, EMPTY]]))
-# print(winner([["X", "O", "X"],
-#              ["O", "X", "X"],
-#              ["X", "O", "X"]]))

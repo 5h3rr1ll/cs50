@@ -92,13 +92,10 @@ def shortest_path(source: int, target: int):
     If no possible path, returns None.
     """
 
-    # TODO
-    # raise NotImplementedError
-
     # init a Stack
     # frontier = StackFrontier()
 
-    # init at Queue
+    # init a Queue
     frontier = QueueFrontier()
 
     # Keeps track of states exoplored
@@ -137,7 +134,6 @@ def shortest_path(source: int, target: int):
         explored.add(node.state)
 
         for action, state in neighbors_for_person(node.state):
-            print("IN NEIGHBORSE", explored)
             if not frontier.contains_state(state) and state not in explored:
                 child = Node(state=state, parent=node, action=action)
                 frontier.add(child)
