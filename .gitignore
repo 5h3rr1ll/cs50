@@ -14,3 +14,5 @@
 .eslintrc
 
 AI/tictactoe/__pycache__/
+
+.DS_Store
